@@ -1,4 +1,4 @@
-# Socrates
+# AI Tutor
 
 An AI tutor that can teach any subject using any teaching style. Built on the [LLM-wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f), it ingests source material into a structured knowledge wiki and uses a configurable teacher persona to drive sessions.
 
@@ -6,7 +6,7 @@ An AI tutor that can teach any subject using any teaching style. Built on the [L
 
 ### The LLM-wiki pattern
 
-Socrates uses **LLM-wiki** — a pattern where an LLM maintains structured markdown wikis as its persistent memory. Instead of relying on conversation context (which resets each session), the agent reads and writes markdown files with defined schemas. This gives it durable, queryable knowledge that survives across conversations.
+AI Tutor uses **LLM-wiki** — a pattern where an LLM maintains structured markdown wikis as its persistent memory. Instead of relying on conversation context (which resets each session), the agent reads and writes markdown files with defined schemas. This gives it durable, queryable knowledge that survives across conversations.
 
 The project is organized around two actors:
 
@@ -96,7 +96,7 @@ All session-specific content (knowledge pages, student data, sources) is gitigno
 
 ```bash
 git clone <repo-url>
-cd socrates
+cd ai-tutor
 ```
 
 The `/teacher` command is available automatically via `.claude/commands/teacher.md` — no manual setup needed.
