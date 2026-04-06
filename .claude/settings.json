@@ -5,9 +5,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "test -f .socrates-session-active && echo '{\"decision\": \"block\", \"reason\": \"Socratic session is active. Please save the session before exiting.\"}' || true",
-            "timeout": 5,
-            "statusMessage": "Checking for active Socratic session..."
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/socrates-checkpoint.sh\"",
+            "async": true
           }
         ]
       }

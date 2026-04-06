@@ -1,16 +1,16 @@
 # Knowledge Wiki — Index
 
-<Populated automatically during source ingestion. See AGENTS.md for page formats.>
-
 ## Curricula
 
 | ID | Title | Source | Lessons |
 |----|-------|--------|---------|
+| cfd_python_12_steps | CFD Python — 12 Steps to Navier-Stokes | Barba | 12 + 3 bonus |
 
 ## Concepts
 
 | Concept | Topics |
 |---------|--------|
+| finite_difference | numerical methods, discretization |
 
 ## Mistakes
 
