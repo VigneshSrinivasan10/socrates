@@ -13,6 +13,15 @@ Source material lives in `sources/` and is never modified by the agent.
 
 ## Getting started
 
+### 0. Set up the `/socrates` command
+
+Copy `socrates.md` into your Claude Code commands directory so you can launch the tutor with `/socrates`:
+
+```bash
+mkdir -p ~/.claude/commands
+cp socrates.md ~/.claude/commands/socrates.md
+```
+
 ### 1. Add source material
 
 Drop your learning material into the appropriate folder:
