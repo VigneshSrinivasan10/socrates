@@ -1,6 +1,23 @@
 # AI Tutor
 
-An AI tutor that can teach any subject using any teaching style. Built on the [LLM-wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f), it ingests source material into a structured knowledge wiki and uses a configurable tutor persona to drive sessions.
+An AI tutor for subjects where you actually need to *think* — not just read. Math, physics, systems design, formal logic, proof-based courses, or anything where passive consumption doesn't work.
+
+Chatbots give you answers. This doesn't. It asks questions, waits for you to struggle, tracks what you've mastered and what's still shaky, and won't let you move on until you've demonstrated understanding. It maintains a structured knowledge wiki from your source material and a persistent model of you as a learner — your mastery levels, recurring mistakes, and learning patterns — so it picks up exactly where you left off across sessions.
+
+Built on the [LLM-wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) with configurable tutor personas (Socratic, Feynman-style, coaching, rigorous, collaborative).
+
+### When to use this
+
+- You're learning something where understanding builds on itself (prerequisites matter)
+- You need to develop intuition, not just memorize facts
+- You've tried reading tutorials and watching videos but it doesn't stick
+- You want a tutor that adapts to *your* gaps, not a fixed curriculum
+
+### When NOT to use this
+
+- You need a quick answer to a specific question (just ask Claude directly)
+- The topic is purely factual with no conceptual depth (use a wiki or chatbot)
+- You want passive content consumption (use a course platform)
 
 ## How it works
 
